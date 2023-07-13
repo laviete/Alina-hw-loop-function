@@ -155,7 +155,7 @@ while (true) {
     "Enter a number from 1 to 20 to guess the secret number:"
   );
   attempts++;
-  if (isNaN(userInput) || userInput ==='') {
+  if (isNaN(userInput) || userInput === ''|| userInput === null) {
     alert("Enter a valid number!");
     continue;
   }
