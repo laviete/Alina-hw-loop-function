@@ -141,7 +141,7 @@ function getSummOddnumFromDiapazon(end = 10) {
  *
  * @param {number} min
  * @param {number} max
- * @returns
+ * @returns {string | number}
  */
 function getRandomNum(min, max) {
   min = Math.ceil(min);
