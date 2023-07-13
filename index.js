@@ -154,11 +154,11 @@ while (true) {
   const userInput = prompt(
     "Enter a number from 1 to 20 to guess the secret number:"
   );
-  if (isNaN(userInput) || userInput === "") {
+  attempts++;
+  if (isNaN(userInput) || userInput ==='') {
     alert("Enter a valid number!");
     continue;
   }
-  attempts++;
   if (userInput < SECRET_NUMBER) {
     alert("The secret number is more. Try again!");
     continue;
